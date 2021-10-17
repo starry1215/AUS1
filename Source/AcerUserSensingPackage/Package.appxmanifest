@@ -8,7 +8,7 @@
 
   <Identity
     Name="AcerIncorporated.AcerUserSensing"
-    Version="1.0.57.0" Publisher="CN=EAF76292-FADE-4EAB-A62C-FE5E78661D58"
+    Version="1.0.58.0" Publisher="CN=EAF76292-FADE-4EAB-A62C-FE5E78661D58"
     />
 
   <Properties>
@@ -44,6 +44,7 @@
         <uap:LockScreen BadgeLogo="Images\BadgeLogo.png" Notification="badge"/>
       </uap:VisualElements>
       <Extensions>
+        <!--
         <rescap:Extension Category="windows.settingsApp">
           <rescap:SettingsApp SettingsPageUri="ms-settings:powersleep">
             <rescap:AppLinks>
@@ -56,6 +57,7 @@
             </rescap:SearchTerms>
           </rescap:SettingsApp>
         </rescap:Extension>
+        -->
         <uap:Extension Category="windows.protocol">
           <uap:Protocol Name="acerusersensing" />
         </uap:Extension>
