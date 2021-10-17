@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+    <SmallTileSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</SmallTileSource>
+    <Source>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</Source>
+    <MediumTileSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</MediumTileSource>
+    <WideTileSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</WideTileSource>
+    <LargeTileSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</LargeTileSource>
+    <AppIconSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</AppIconSource>
+    <SplashScreenSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</SplashScreenSource>
+    <BadgeLogoSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</BadgeLogoSource>
+    <PackageLogoSource>D:\work\AcerHumanPresence\Project\AcerHumanPresence\AcerHumanPresencePackage\app-9.png</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>
